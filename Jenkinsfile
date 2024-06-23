@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/tu-usuario/tu-proyecto-react.git'
+                git 'https://github.com/felipe-murcia/jenkins-react.git'
             }
         }
 
